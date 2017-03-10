@@ -292,7 +292,10 @@ class TopLevelMixin(object):
     def _ipython_display_(self):
         from IPython.display import display
         spec = self.to_dict()
-        data = {'application/vnd.vegalite+json': spec}
+        data = {
+            'application/vnd.vegalite.v1+json': spec,
+            'text/plain': '<altair.VegaLite object>'
+        }
         display(data, raw=True)
 
     def display(self):
