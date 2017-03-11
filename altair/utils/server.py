@@ -13,7 +13,7 @@ import random
 from ._py3k_compat import server, IO
 
 JUPYTER_WARNING = """
-Note: if you're in the Jupyter notebook, Chart.serve() is not the best
+Note: if you're in the Jupyter Notebook, Chart.serve() is not the best
       way to view plots. Consider using Chart.display().
 You must interrupt the kernel to cancel this command.
 """

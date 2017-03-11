@@ -21,7 +21,8 @@ as well as Altair's [Tutorial Notebooks](altair/notebooks/01-Index.ipynb).
 
 ## Example
 
-Here is an example using Altair to quickly visualize and display a dataset with the native Vega-Lite renderer in the Jupyter Notebook:
+Here is an example using Altair to quickly visualize and display a dataset with
+the native Vega-Lite renderer in the Jupyter Notebook:
 
 ```python
 from altair import Chart, load_dataset
@@ -51,8 +52,8 @@ manner. By statistical visualization we mean:
 The Altair API contains no actual visualization rendering code but instead
 emits JSON data structures following the
 [Vega-Lite](https://github.com/vega/vega-lite) specification. For convenience,
-Altair can optionally use [ipyvega](https://github.com/vega/ipyvega) to
-display client-side renderings seamlessly in the Jupyter notebook.
+Altair can optionally use [jupyterlab_vega](https://github.com/altair-viz/jupyterlab_vega) to
+display client-side renderings seamlessly in the Jupyter Notebook.
 
 ## Features
 
@@ -168,10 +169,11 @@ Altair requires the following dependencies:
 * [traitlets](https://github.com/ipython/traitlets)
 * [IPython](https://github.com/ipython/ipython)
 
-For visualization in the IPython/Jupyter notebook using the Vega-Lite renderer, Altair additionally requires
+For visualization in the IPython/Jupyter Notebook using the Vega-Lite renderer,
+Altair additionally requires
 
 * [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
-* [ipyvega](https://github.com/vega/ipyvega)
+* [jupyterlab_vega](https://github.com/altair-viz/jupyterlab_vega)
 
 If you have cloned the repository, run the following command from the root of the repository:
 
@@ -193,6 +195,7 @@ To run the tests, use
 ```
 py.test --pyargs altair
 ```
+
 (you can omit the `--pyargs` flag if you are running the tests from a source checkout).
 
 ## Feedback and Contribution
@@ -205,10 +208,13 @@ as much bigger than Altair itself: the Vega and Vega-Lite specifications are
 perhaps the best existing candidates for a principled *lingua franca* of data
 visualization.
 
-To contribute additional examples to the documentation please add or
-update notebooks in `altair/notebooks/*.ipynb` and open a pull request.
-Be sure to add links to `01-Index.ipynb` if needed. Thanks!
+To contribute additional examples to the documentation please add or update
+notebooks in `altair/notebooks/*.ipynb` and open a pull request. Be sure to add
+links to `01-Index.ipynb` if needed. Thanks!
 
 ## Whence Altair?
 
-Altair is the [brightest star](https://en.wikipedia.org/wiki/Altair) in the constellation Aquila, and along with Deneb and Vega forms the northern-hemisphere asterism known as the [Summer Triangle](https://en.wikipedia.org/wiki/Summer_Triangle).
+Altair is the [brightest star](https://en.wikipedia.org/wiki/Altair) in the
+constellation Aquila, and along with Deneb and Vega forms the
+northern-hemisphere asterism known as the [Summer
+Triangle](https://en.wikipedia.org/wiki/Summer_Triangle).

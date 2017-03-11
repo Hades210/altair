@@ -51,9 +51,11 @@ Displaying Plots in Jupyter Notebook
 
 Perhaps the most straightforward way to interactively create and render
 Altair visualizations is in the `Jupyter Notebook`_.
-If you have installed correctly configured the `ipyvega`_ package
-(See :ref:`Installation`), then a chart on the last line of a code cell
-will automatically be represented within the notebook as a rendered plot:
+
+`jupyterlab_vega`_ is an extension for both Jupyter Notebook and JupyterLab.
+Once installed and enabled, it will render all Altair charts using vega-embed.
+You can render a chart by returning it (calling it on the last line of a code
+cell) or using ``.display()`` on a Altair ``Chart`` object.
 
 .. altair-plot::
 
@@ -65,9 +67,6 @@ will automatically be represented within the notebook as a rendered plot:
         y='Miles_per_Gallon:Q',
         color='Origin:N',
     )
-
-Alternatively, you can use ``chart.display()`` to more explicitly display
-any chart object
 
 .. _displaying-plots-html:
 
@@ -195,4 +194,4 @@ please send comments or contributions via Altair's
 .. _Vega-Lite Online Editor: https://vega.github.io/vega-editor/?mode=vega-lite
 .. _Vega-Lite: https://github.com/vega/vega-lite
 .. _Jupyter Notebook: https://jupyter.readthedocs.io/en/latest/install.html
-.. _ipyvega: http://github.com/vega/ipyvega
+.. _jupyterlab_vega: https://github.com/altair-viz/jupyterlab_vega

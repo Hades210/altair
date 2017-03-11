@@ -23,7 +23,7 @@ See the `Altair Github Repository`_ for issues, bug reports, and contributions.
 .. _Altair Github Repository: http://github.com/altair-viz/altair/
 .. _Altair Documentation: http://altair-viz.github.io/
 .. _Vega-Lite: https://github.com/vega/vega-lite
-.. _ipyvega: https://github.com/vega/ipyvega
+.. _jupyterlab_Vega: https://github.com/altair-viz/jupyterlab_vega
 """
 
 DESCRIPTION         = "Altair: A declarative statistical visualization library for Python."

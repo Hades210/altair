@@ -8,12 +8,14 @@ Altair can be installed via the Python Package Index with the following:
 
     $ pip install altair
     $ pip install --upgrade notebook
-    $ jupyter nbextension install --sys-prefix --py vega
+    $ pip install jupyterlab_vega
+    $ jupyter nbextension install --sys-prefix --py jupyterlab_vega
+    $ jupyter nbextension enable --sys-prefix --py jupyterlab_vega
 
-The additional commands serve to set-up the `ipyvega`_ module to automatically
-render Altair plots within the Jupyter notebook (see :ref:`displaying-plots-jupyter`)
-Alternatively, you can install with conda_, which handles the Jupyter notebook
-setup within the single install command:
+The additional commands serve to set-up the `jupyterlab_vega`_ package to
+automatically render Altair plots within the Jupyter Notebook (see
+:ref:`displaying-plots-jupyter`) Alternatively, you can install with conda_,
+which handles the Jupyter Notebook setup within the single install command:
 
 .. code-block:: bash
 
@@ -33,7 +35,7 @@ Additionally, the following optional dependencies are required to use Altair
 within the Jupyter Notebook:
 
 - `Jupyter Notebook`_
-- ipyvega_
+- jupyterlab_vega_
 
 Development Install
 -------------------

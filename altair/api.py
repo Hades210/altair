@@ -322,7 +322,7 @@ class TopLevelMixin(object):
             dictionary of extra content to serve
         jupyter_warning : bool (optional)
             if True (default), then print a warning if this is used
-            within the Jupyter notebook
+            within the Jupyter Notebook
         open_browser : bool (optional)
             if True (default), then open a web browser to the given HTML
         http_server : class (optional)
