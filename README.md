@@ -52,7 +52,7 @@ manner. By statistical visualization we mean:
 The Altair API contains no actual visualization rendering code but instead
 emits JSON data structures following the
 [Vega-Lite](https://github.com/vega/vega-lite) specification. For convenience,
-Altair can optionally use [jupyterlab_vega](https://github.com/altair-viz/jupyterlab_vega) to
+Altair can optionally use [jupyter_vega](https://github.com/altair-viz/jupyter_vega) to
 display client-side renderings seamlessly in the Jupyter Notebook.
 
 ## Features
@@ -173,7 +173,7 @@ For visualization in the IPython/Jupyter Notebook using the Vega-Lite renderer,
 Altair additionally requires
 
 * [Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)
-* [jupyterlab_vega](https://github.com/altair-viz/jupyterlab_vega)
+* [jupyter_vega](https://github.com/altair-viz/jupyter_vega)
 
 If you have cloned the repository, run the following command from the root of the repository:
 

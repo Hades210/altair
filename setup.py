@@ -23,7 +23,7 @@ See the `Altair Github Repository`_ for issues, bug reports, and contributions.
 .. _Altair Github Repository: http://github.com/altair-viz/altair/
 .. _Altair Documentation: http://altair-viz.github.io/
 .. _Vega-Lite: https://github.com/vega/vega-lite
-.. _jupyterlab_Vega: https://github.com/altair-viz/jupyterlab_vega
+.. _jupyter_vega: https://github.com/altair-viz/jupyter_vega
 """
 
 DESCRIPTION         = "Altair: A declarative statistical visualization library for Python."
@@ -55,7 +55,7 @@ AUTHOR_EMAIL        = "ellisonbg@gmail.com / jakevdp@cs.washington.edu"
 URL                 = 'http://altair-viz.github.io'
 DOWNLOAD_URL        = 'http://github.com/altair-viz/altair/'
 LICENSE             = 'BSD 3-clause'
-INSTALL_REQUIRES    = ['traitlets>=4.3.1','ipython','pandas','jupyterlab_vega']
+INSTALL_REQUIRES    = ['traitlets>=4.3.1','ipython','pandas','jupyter_vega']
 
 
 import io

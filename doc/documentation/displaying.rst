@@ -52,7 +52,7 @@ Displaying Plots in Jupyter Notebook
 Perhaps the most straightforward way to interactively create and render
 Altair visualizations is in the `Jupyter Notebook`_.
 
-`jupyterlab_vega`_ is an extension for both Jupyter Notebook and JupyterLab.
+`jupyter_vega`_ is an extension for both Jupyter Notebook and JupyterLab.
 Once installed and enabled, it will render all Altair charts using vega-embed.
 You can render a chart by returning it (calling it on the last line of a code
 cell) or using ``.display()`` on a Altair ``Chart`` object.
@@ -194,4 +194,4 @@ please send comments or contributions via Altair's
 .. _Vega-Lite Online Editor: https://vega.github.io/vega-editor/?mode=vega-lite
 .. _Vega-Lite: https://github.com/vega/vega-lite
 .. _Jupyter Notebook: https://jupyter.readthedocs.io/en/latest/install.html
-.. _jupyterlab_vega: https://github.com/altair-viz/jupyterlab_vega
+.. _jupyter_vega: https://github.com/altair-viz/jupyter_vega
